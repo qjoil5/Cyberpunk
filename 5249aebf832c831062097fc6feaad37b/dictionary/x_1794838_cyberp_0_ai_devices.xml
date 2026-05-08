@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5eb07090833c471062097fc6feaad392" extends="cmdb_ci" label="AI Devices" max_length="40" name="x_1794838_cyberp_0_ai_devices" type="collection">
+        <element choice="1" label="Device Category" max_length="40" name="device_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AR Glasses" sequence="0" value="AR Glasses"/>
+                <element inactive_on_update="false" label="Flux Condansator" sequence="2" value="Flux Condansator"/>
+                <element inactive_on_update="false" label="Pencake maker" sequence="4" value="Pencake maker"/>
+                <element inactive_on_update="false" label="Smart hat" sequence="1" value="Smart hat"/>
+                <element inactive_on_update="false" label="AI Powered Service Desk Agent" sequence="3" value="AI Powered Service Desk Agent"/>
+            </choice>
+        </element>
+        <element label="Price" max_length="20" name="price" type="price"/>
+    </element>
+</database>
