@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="244aae33836c831062097fc6feaad3a8" extends="task" label="Device Request" max_length="40" name="x_1794838_cyberp_0_device_request" type="collection">
-        <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="string"/>
+        <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
         <element label="Delivery date" max_length="255" name="delivery_date" type="glide_date"/>
+        <element label="Business Justification" max_length="5555" name="business_justification" type="string"/>
         <element label="Model" max_length="40" name="model" read_only="true" type="string"/>
         <element label="Warranty" max_length="255" name="warranty" read_only="true" type="glide_date"/>
         <element label="Device name" mandatory="true" max_length="32" name="device_name" reference="x_1794838_cyberp_0_ai_devices" type="reference"/>
-        <element label="Device Description" max_length="40" name="device_description" read_only="true" type="string"/>
+        <element label="Device Description" max_length="2200" name="device_description" read_only="true" type="string"/>
         <element label="Price" max_length="20" name="price" read_only="true" type="price"/>
         <element label="Requester name" mandatory="true" max_length="32" name="requester_name" reference="sys_user" type="reference"/>
         <element choice="1" label="State" max_length="40" name="stat0" type="choice">

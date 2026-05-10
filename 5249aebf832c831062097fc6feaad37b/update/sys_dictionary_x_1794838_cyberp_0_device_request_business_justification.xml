@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="device_description" table="x_1794838_cyberp_0_device_request">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="business_justification" table="x_1794838_cyberp_0_device_request">
         <active>true</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Device Description</column_label>
+        <column_label>Business Justification</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,7 +21,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>device_description</element>
+        <element>business_justification</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -29,11 +29,11 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>2200</max_length>
+        <max_length>5555</max_length>
         <name>x_1794838_cyberp_0_device_request</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-05-07 18:49:20</sys_created_on>
-        <sys_name>Device Description</sys_name>
+        <sys_created_on>2026-05-09 12:58:38</sys_created_on>
+        <sys_name>Business Justification</sys_name>
         <sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
-        <sys_update_name>sys_dictionary_x_1794838_cyberp_0_device_request_device_description</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1794838_cyberp_0_device_request_business_justification</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-09 13:30:35</sys_updated_on>
+        <sys_updated_on>2026-05-09 12:58:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

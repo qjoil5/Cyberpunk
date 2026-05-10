@@ -14,7 +14,7 @@
         <license_definition/>
         <license_model>none</license_model>
         <logo/>
-        <menu/>
+        <menu display_value="Cyberpunk">56d38f498370031062097fc6feaad341</menu>
         <name>Cyberpunk</name>
         <package_json/>
         <private>false</private>
@@ -32,9 +32,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-06 13:40:32</sys_created_on>
         <sys_id>5249aebf832c831062097fc6feaad37b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-07 18:18:59</sys_updated_on>
+        <sys_updated_on>2026-05-10 12:50:00</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
