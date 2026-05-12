@@ -3,8 +3,10 @@
         <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
         <element label="Delivery date" max_length="255" name="delivery_date" type="glide_date"/>
         <element label="Business Justification" max_length="5555" name="business_justification" type="string"/>
+        <element label="Reminder for pick up" max_length="255" name="reminder_for_pick_up" type="glide_date_time"/>
         <element label="Model" max_length="40" name="model" read_only="true" type="string"/>
         <element label="Warranty" max_length="255" name="warranty" read_only="true" type="glide_date"/>
+        <element label="Total cost" max_length="20" name="total_cost" read_only="true" type="currency"/>
         <element label="Device name" mandatory="true" max_length="32" name="device_name" reference="x_1794838_cyberp_0_ai_devices" type="reference"/>
         <element label="Device Description" max_length="2200" name="device_description" read_only="true" type="string"/>
         <element label="Price" max_length="20" name="price" read_only="true" type="price"/>
@@ -12,6 +14,8 @@
         <element choice="1" label="State" max_length="40" name="stat0" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Cancelled" sequence="1" value="Cancelled"/>
+                <element inactive_on_update="false" label="In Progress" sequence="3" value="In Progress"/>
+                <element inactive_on_update="false" label="Delivery failed" sequence="2" value="Delivery failed"/>
                 <element inactive_on_update="false" label="Delivered" sequence="0" value="Delivered"/>
             </choice>
         </element>

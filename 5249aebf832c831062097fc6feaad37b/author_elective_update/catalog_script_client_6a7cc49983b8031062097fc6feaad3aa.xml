@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Cyberpunk Device Order">96048cd58378031062097fc6feaad36d</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>test</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.setValue('please_provide_business_justification', 'please')
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 18:06:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6a7cc49983b8031062097fc6feaad3aa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
+        <sys_update_name>catalog_script_client_6a7cc49983b8031062097fc6feaad3aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 18:08:05</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</application>
+        <file_path/>
+        <instance_id>986debb83b078ad8c55a348aa4e45abe</instance_id>
+        <instance_name>dev275523</instance_name>
+        <name>catalog_script_client_6a7cc49983b8031062097fc6feaad3aa</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Cyberpunk Device Order"&gt;96048cd58378031062097fc6feaad36d&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;test&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.setValue('please_provide_business_justification', 'please')
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-10 18:06:39&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6a7cc49983b8031062097fc6feaad3aa&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;test&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0"&gt;5249aebf832c831062097fc6feaad37b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Cyberpunk"&gt;5249aebf832c831062097fc6feaad37b&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_6a7cc49983b8031062097fc6feaad3aa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-10 18:08:05&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-319216278</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>d2e8397883348b1062097fc6feaad3ca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 18:08:05</sys_created_on>
+        <sys_id>a4ec4cd983b8031062097fc6feaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e1313305f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 18:08:05</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>e0ec4cd9d7b80310f5e2ccf034478c21</update_guid>
+        <update_guid_history>e0ec4cd9d7b80310f5e2ccf034478c21:-319216278,3f8ccc9979b803104866b07badb1272b:-390697291</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="test">c9fcccd983b8031062097fc6feaad36b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 18:08:23</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>2703e9ea0b1148fe9f473193d7678d59</sys_id>
+        <sys_metadata>6a7cc49983b8031062097fc6feaad3aa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
+        <sys_scope_delete display_value="">1d97e691b68648c0838248808cd271e4</sys_scope_delete>
+        <sys_update_name>catalog_script_client_6a7cc49983b8031062097fc6feaad3aa</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_6a7cc49983b8031062097fc6feaad3aa">a4ec4cd983b8031062097fc6feaad322</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 18:08:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

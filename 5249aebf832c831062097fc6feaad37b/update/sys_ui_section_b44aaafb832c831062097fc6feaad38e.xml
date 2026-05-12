@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-09 12:58:39</sys_created_on>
-            <sys_id>9a7c357083748b1062097fc6feaad3aa</sys_id>
+            <sys_created_on>2026-05-12 17:07:38</sys_created_on>
+            <sys_id>3e32d6f98378471062097fc6feaad33b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1794838_cyberp_0_device_request" sys_domain="global" view="Default view">b44aaafb832c831062097fc6feaad38e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-09 12:58:39</sys_updated_on>
+            <sys_updated_on>2026-05-12 17:07:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>device_name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-09 12:58:39</sys_created_on>
-            <sys_id>127c357083748b1062097fc6feaad3ac</sys_id>
+            <sys_created_on>2026-05-12 17:07:38</sys_created_on>
+            <sys_id>3232d6f98378471062097fc6feaad33d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1794838_cyberp_0_device_request" sys_domain="global" view="Default view">b44aaafb832c831062097fc6feaad38e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-09 12:58:39</sys_updated_on>
+            <sys_updated_on>2026-05-12 17:07:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,111 +32,139 @@
             <element>stat0</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-09 12:58:39</sys_created_on>
-            <sys_id>da7c357083748b1062097fc6feaad3ac</sys_id>
+            <sys_created_on>2026-05-12 17:07:38</sys_created_on>
+            <sys_id>fa32d6f98378471062097fc6feaad33d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1794838_cyberp_0_device_request" sys_domain="global" view="Default view">b44aaafb832c831062097fc6feaad38e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-09 12:58:39</sys_updated_on>
+            <sys_updated_on>2026-05-12 17:07:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_cost</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-12 17:07:38</sys_created_on>
+            <sys_id>b632d6f98378471062097fc6feaad33e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1794838_cyberp_0_device_request" sys_domain="global" view="Default view">b44aaafb832c831062097fc6feaad38e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-12 17:07:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reminder_for_pick_up</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-12 17:07:38</sys_created_on>
+            <sys_id>7232d6f98378471062097fc6feaad33f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1794838_cyberp_0_device_request" sys_domain="global" view="Default view">b44aaafb832c831062097fc6feaad38e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-12 17:07:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-09 12:58:39</sys_created_on>
-            <sys_id>967c357083748b1062097fc6feaad3ad</sys_id>
+            <sys_created_on>2026-05-12 17:07:38</sys_created_on>
+            <sys_id>3e32d6f98378471062097fc6feaad33f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1794838_cyberp_0_device_request" sys_domain="global" view="Default view">b44aaafb832c831062097fc6feaad38e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-09 12:58:39</sys_updated_on>
+            <sys_updated_on>2026-05-12 17:07:38</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>requester_name</element>
-            <position>4</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-09 12:58:39</sys_created_on>
-            <sys_id>527c357083748b1062097fc6feaad3ae</sys_id>
+            <sys_created_on>2026-05-12 17:07:38</sys_created_on>
+            <sys_id>f632d6f98378471062097fc6feaad340</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1794838_cyberp_0_device_request" sys_domain="global" view="Default view">b44aaafb832c831062097fc6feaad38e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-09 12:58:39</sys_updated_on>
+            <sys_updated_on>2026-05-12 17:07:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>company</element>
-            <position>5</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-09 12:58:39</sys_created_on>
-            <sys_id>d27c357083748b1062097fc6feaad3bb</sys_id>
+            <sys_created_on>2026-05-12 17:07:38</sys_created_on>
+            <sys_id>b232d6f98378471062097fc6feaad341</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1794838_cyberp_0_device_request" sys_domain="global" view="Default view">b44aaafb832c831062097fc6feaad38e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-09 12:58:39</sys_updated_on>
+            <sys_updated_on>2026-05-12 17:07:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>quantity</element>
-            <position>6</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-09 12:58:39</sys_created_on>
-            <sys_id>9e7c357083748b1062097fc6feaad3bb</sys_id>
+            <sys_created_on>2026-05-12 17:07:38</sys_created_on>
+            <sys_id>7e32d6f98378471062097fc6feaad341</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1794838_cyberp_0_device_request" sys_domain="global" view="Default view">b44aaafb832c831062097fc6feaad38e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-09 12:58:39</sys_updated_on>
+            <sys_updated_on>2026-05-12 17:07:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>delivery_date</element>
-            <position>7</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-09 12:58:39</sys_created_on>
-            <sys_id>5a7c357083748b1062097fc6feaad3bc</sys_id>
+            <sys_created_on>2026-05-12 17:07:38</sys_created_on>
+            <sys_id>3a32d6f98378471062097fc6feaad342</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1794838_cyberp_0_device_request" sys_domain="global" view="Default view">b44aaafb832c831062097fc6feaad38e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-09 12:58:39</sys_updated_on>
+            <sys_updated_on>2026-05-12 17:07:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>8</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-09 12:58:39</sys_created_on>
-            <sys_id>167c357083748b1062097fc6feaad3bd</sys_id>
+            <sys_created_on>2026-05-12 17:07:38</sys_created_on>
+            <sys_id>f232d6f98378471062097fc6feaad343</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1794838_cyberp_0_device_request" sys_domain="global" view="Default view">b44aaafb832c831062097fc6feaad38e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-09 12:58:39</sys_updated_on>
+            <sys_updated_on>2026-05-12 17:07:38</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>business_justification</element>
-            <position>9</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-09 12:58:39</sys_created_on>
-            <sys_id>de7c357083748b1062097fc6feaad3bd</sys_id>
+            <sys_created_on>2026-05-12 17:07:38</sys_created_on>
+            <sys_id>be32d6f98378471062097fc6feaad343</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1794838_cyberp_0_device_request" sys_domain="global" view="Default view">b44aaafb832c831062097fc6feaad38e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-09 12:58:39</sys_updated_on>
+            <sys_updated_on>2026-05-12 17:07:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
