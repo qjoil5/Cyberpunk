@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8df351be83bc0f1062097fc6feaad396" extends="sys_import_set_row" label="device_data" max_length="40" name="x_1794838_cyberp_0_device_data" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Delivery date" label="Delivery date" max_length="40" name="u_delivery_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ordered by" label="Ordered by" max_length="40" name="u_ordered_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Device name" label="Device name" max_length="40" name="u_device_name" type="string"/>
+        <element attributes="import_attribute_name=Quantity" label="Quantity" max_length="40" name="u_quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Justification" label="Justification" max_length="40" name="u_justification" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Company" label="Company" max_length="40" name="u_company" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=state" label="state" max_length="40" name="u_state" type="string"/>
+    </element>
+</database>
