@@ -4,7 +4,7 @@
         <misc>0</misc>
         <order>200</order>
         <published_ref/>
-        <question display_value="Device Future Request">00a9b9ba83f04f1062097fc6feaad3be</question>
+        <question display_value="Device Future State">00a9b9ba83f04f1062097fc6feaad3be</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>
