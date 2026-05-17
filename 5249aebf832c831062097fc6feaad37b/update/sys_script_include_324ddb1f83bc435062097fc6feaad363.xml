@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1794838_cyberp_0.getAssignment</api_name>
+        <caller_access>1</caller_access>
+        <client_callable>true</client_callable>
+        <description>//On the incident form if the "Assigned to" is selected then the 'Assignment group' will only list hte groups which the current user is part o&#13;
+//Since this is created within the application, the API name needs to be called for the Script include</description>
+        <mobile_callable>false</mobile_callable>
+        <name>getAssignment</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var getAssignment = Class.create();
+getAssignment.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+    //receive the user name from the disctionary override
+    //filters the group based on that and stores in an aray
+
+    nameGroup: function(username) {
+        if (username) {
+			
+            var storeGroup = [];
+            var grmember = new GlideRecord('sys_user_grmember');
+            grmember.addQuery('user', username);
+            grmember.query();
+
+            while (grmember.next()) {
+                storeGroup.push(grmember.getValue('group'));
+            }
+
+            //script include always return string
+            return 'sys_idIN' + storeGroup.toString();
+        }
+    },
+
+    type: 'getAssignment'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 14:36:59</sys_created_on>
+        <sys_id>324ddb1f83bc435062097fc6feaad363</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>getAssignment</sys_name>
+        <sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
+        <sys_update_name>sys_script_include_324ddb1f83bc435062097fc6feaad363</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-17 14:54:13</sys_updated_on>
+    </sys_script_include>
+</record_update>

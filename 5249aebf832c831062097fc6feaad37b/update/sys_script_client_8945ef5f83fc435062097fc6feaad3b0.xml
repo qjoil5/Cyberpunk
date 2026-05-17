@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>//At least 2 checkbox needs to be selected when an incident is submitted</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>CheckboxValidation</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   
+   //stores the value of the fields
+	var checkone = g_form.getValue('x_1794838_cyberp_0_new_field_1');
+	var checktwo = g_form.getValue('x_1794838_cyberp_0_checkbox_2');
+	var checkthree = g_form.getValue('x_1794838_cyberp_0_checkbox_3');
+
+	var counter = 0;
+	var storevalue = [checkone,checktwo,checkthree];
+
+	for (var i=0;i<storevalue.length;i++){
+		if (storevalue[i] == 'true'){
+			counter++;
+		}
+	}
+
+	//if it smaller then 2 then error msg(from sys property) and terminate the client script
+	if (counter<2){
+		g_form.addErrorMessage('You have to select minimum two checkboxes');
+		return false;
+	}
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-17 15:10:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8945ef5f83fc435062097fc6feaad3b0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CheckboxValidation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
+        <sys_update_name>sys_script_client_8945ef5f83fc435062097fc6feaad3b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-17 15:14:13</sys_updated_on>
+        <table>incident</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
