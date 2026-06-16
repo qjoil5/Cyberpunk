@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5cb933458319cfd062097fc6feaad36f" extends="task" label="Software" max_length="40" name="x_1794838_cyberp_0_software" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Related devicy type" max_length="32" name="related_devicy_type" reference="x_1794838_cyberp_0_ai_devices" type="reference"/>
+        <element label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
+    </element>
+</database>

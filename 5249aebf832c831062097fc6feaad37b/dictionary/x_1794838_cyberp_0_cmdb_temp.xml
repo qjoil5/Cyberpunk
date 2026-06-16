@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b645b41c835dc7d062097fc6feaad31f" extends="sys_import_set_row" label="cmdb_temp" max_length="40" name="x_1794838_cyberp_0_cmdb_temp" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Serial" label="Serial" max_length="40" name="u_serial" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Operating System" label="Operating System" max_length="40" name="u_operating_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=OS Version" label="OS Version" max_length="40" name="u_os_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+    </element>
+</database>

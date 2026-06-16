@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs">
+    <sys_rest_message_fn_param_defs action="DELETE">
+        <name>fields</name>
+        <order>100</order>
+        <rest_message_function display_value="Default GET">e798b40183a1cf5462097fc6feaad34f</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_param_defs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 09:41:37</sys_created_on>
+        <sys_id>d14bfc4583a1cf5462097fc6feaad33c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>fields</sys_name>
+        <sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
+        <sys_update_name>sys_rest_message_fn_param_defs_d14bfc4583a1cf5462097fc6feaad33c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 09:45:14</sys_updated_on>
+        <value>city</value>
+    </sys_rest_message_fn_param_defs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</application>
+        <file_path/>
+        <instance_id>986debb83b078ad8c55a348aa4e45abe</instance_id>
+        <instance_name>dev275523</instance_name>
+        <name>sys_rest_message_fn_param_defs_d14bfc4583a1cf5462097fc6feaad33c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs"><sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE"><name>fields</name><order>100</order><rest_message_function display_value="Default GET">e798b40183a1cf5462097fc6feaad34f</rest_message_function><sys_class_name>sys_rest_message_fn_param_defs</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-16 09:41:37</sys_created_on><sys_id>d14bfc4583a1cf5462097fc6feaad33c</sys_id><sys_mod_count>3</sys_mod_count><sys_name>fields</sys_name><sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package><sys_policy/><sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope><sys_update_name>sys_rest_message_fn_param_defs_d14bfc4583a1cf5462097fc6feaad33c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-16 09:45:14</sys_updated_on><value>city</value></sys_rest_message_fn_param_defs></record_update>]]></payload>
+        <payload_hash>1340678780</payload_hash>
+        <record_name>fields</record_name>
+        <reverted_from/>
+        <source>a8429940830d875062097fc6feaad31f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 09:45:14</sys_created_on>
+        <sys_id>279cb80983a1cf5462097fc6feaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ecfd21dc80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 09:45:14</sys_updated_on>
+        <type>HTTP Query Parameters</type>
+        <update_guid>639cb8098ca1cf54789f7737fba19b34</update_guid>
+        <update_guid_history>639cb8098ca1cf54789f7737fba19b34:1340678780,7d8cf4091ba1cf54a2eadbb5748f8da0:1000767091,62ebf0c510a1cf54b30f66ecc9a43114:1340678780,aecbfc4595a1cf540ccb3eee9ca07f41:-400270250</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 17:38:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_param_defs">sys_rest_message_fn_param_defs</sys_db_object>
+        <sys_id>1f4605fefdca4c789ba1d4116e6d3d84</sys_id>
+        <sys_metadata>d14bfc4583a1cf5462097fc6feaad33c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fields</sys_name>
+        <sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package>
+        <sys_parent display_value="Default GET">e798b40183a1cf5462097fc6feaad34f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
+        <sys_scope_delete display_value="">1d97e691b68648c0838248808cd271e4</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_param_defs_d14bfc4583a1cf5462097fc6feaad33c</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_param_defs_d14bfc4583a1cf5462097fc6feaad33c">279cb80983a1cf5462097fc6feaad335</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 17:38:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

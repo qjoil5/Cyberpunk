@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9a46324d8361039462097fc6feaad3a2" label="Get the weather" max_length="40" name="x_1794838_cyberp_0_get_the_weather" type="collection">
+        <element label="Local time" max_length="100" name="local_time" type="glide_time"/>
+        <element label="Wind speed(kph)" max_length="100" name="wind_speed_kph" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Enter location" max_length="100" name="enter_location" type="string"/>
+        <element label="Temperature(C)" max_length="100" name="temperature_c" type="string"/>
+        <element label="Present condition" max_length="100" name="present_condition" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

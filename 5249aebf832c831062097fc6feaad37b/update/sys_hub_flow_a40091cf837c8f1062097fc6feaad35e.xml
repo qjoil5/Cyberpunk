@@ -28,7 +28,7 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a40091cf837c8f1062097fc6feaad35e</sys_id>
-        <sys_mod_count>62</sys_mod_count>
+        <sys_mod_count>64</sys_mod_count>
         <sys_name>Device return flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package>
@@ -44,11 +44,11 @@
         <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
         <sys_update_name>sys_hub_flow_a40091cf837c8f1062097fc6feaad35e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-16 14:46:45</sys_updated_on>
+        <sys_updated_on>2026-06-03 14:48:02</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>6e58924383f4cf1062097fc6feaad39e</version_record>
+        <version_record>4e358bb0839d0fd062097fc6feaad353</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=a40091cf837c8f1062097fc6feaad35e"/>
     <sys_variable_value action="delete_multiple" query="document_key=a40091cf837c8f1062097fc6feaad35e"/>
