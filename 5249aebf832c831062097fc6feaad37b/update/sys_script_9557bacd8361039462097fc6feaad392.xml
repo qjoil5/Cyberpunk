@@ -27,29 +27,27 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    try {
+        var r = new sn_ws.RESTMessageV2('x_1794838_cyberp_0.weather', 'Default GET');
 
-	 try { 
- var r = new sn_ws.RESTMessageV2('x_1794838_cyberp_0.weather', 'Default GET');
+        r.setQueryParameter('q', current.enter_location);
 
-r.setQueryParameter('q', current.enter_location);
+        var response = r.executeAsync();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
 
- var response = r.executeAsync();
- var responseBody = response.getBody();
- var httpStatus = response.getStatusCode();
+        var responseobj = JSON.parse(responseBody);
+        current.temperature_c = responseobj.current.temp_c;
+        current.wind_speed_kph = responseobj.current.wind_kph;
+        current.present_condition = responseobj.current.condition.text;
+        current.local_time = responseobj.location.localtime;
 
- var responseobj = JSON.parse(responseBody);
-current.temperature_c = responseobj.current.temp_c;
-current.wind_speed_kph = responseobj.current.wind_kph;
-current.present_condition = responseobj.current.condition.text;
-current.local_time = responseobj.location.localtime;
+        current.update();
 
-current.update();
-
-}
-catch(ex) {
- var message = ex.message;
-}
+    } catch (ex) {
+        var message = ex.message;
+    }
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -58,7 +56,7 @@ catch(ex) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9557bacd8361039462097fc6feaad392</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>weatherfill</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package>
@@ -66,7 +64,7 @@ catch(ex) {
         <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
         <sys_update_name>sys_script_9557bacd8361039462097fc6feaad392</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 18:47:49</sys_updated_on>
+        <sys_updated_on>2026-06-20 08:40:18</sys_updated_on>
         <template/>
         <when>async_always</when>
     </sys_script>

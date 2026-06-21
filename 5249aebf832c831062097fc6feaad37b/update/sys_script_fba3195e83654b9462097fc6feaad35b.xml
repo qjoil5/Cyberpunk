@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>incident</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="incident">cmdb_ci=a9c0c8d2c6112276018f7705562f9cb0^EQ<item display_table="cmdb_ci" display_value="Sales Force Automation" endquery="false" field="cmdb_ci" goto="false" newquery="false" operator="=" or="false" value="a9c0c8d2c6112276018f7705562f9cb0"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Salesforce Case</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+
+    try {
+        var r = new sn_ws.RESTMessageV2('x_1794838_cyberp_0.Connect Salesforce', 'Create case');
+        r.setStringParameterNoEscape('description', current.description);
+        r.setStringParameterNoEscape('subject', current.short_description);
+
+        var response = r.execute();
+        var responsebody = response.getBody();
+		//To check if it is creating a record or not (201)
+        var httpStatus = response.getStatusCode();
+
+		if(httpStatus==201){
+			var responseObj = JSON.parse(responsebody);
+			var caseID = responseObj.id;
+			current.x_1794838_cyberp_0_salesforce_case_id = caseID;
+			
+			current.update();
+		}
+		else{
+			gs.error('Failed to create record in Salesforce' + httpStatus);
+			current.x_1794838_cyberp_0_salesforce_case_id = "no good test";
+		}
+    } catch (ex) {
+        gs.error('Error');
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-20 08:39:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fba3195e83654b9462097fc6feaad35b</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Salesforce Case</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
+        <sys_update_name>sys_script_fba3195e83654b9462097fc6feaad35b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-20 09:13:50</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=fba3195e83654b9462097fc6feaad35b"/>
+</record_update>

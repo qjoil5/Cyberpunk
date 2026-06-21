@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="email_client=true,hasWorkflow=true,live_feed=true,all_tables.query_hints=true" audit="true" db_object_id="b21fe242187632108bb255f46a373aff" extends="task" label="Incident" max_length="40" name="incident" text_index="true" type="collection">
         <element label="Checkbox 1" max_length="255" name="x_1794838_cyberp_0_new_field_1" type="boolean"/>
+        <element label="Salesforce case ID" max_length="40" name="x_1794838_cyberp_0_salesforce_case_id" type="string"/>
         <element label="Checkbox 2" max_length="255" name="x_1794838_cyberp_0_checkbox_2" type="boolean"/>
         <element label="Checkbox 3" max_length="255" name="x_1794838_cyberp_0_checkbox_3" type="boolean"/>
     </element>
