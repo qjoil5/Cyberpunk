@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_custom_adapter_property">
+    <sys_cs_custom_adapter_property action="INSERT_OR_UPDATE">
+        <description>Allow an agent to privately message their manager during a support chat</description>
+        <document_record>4dcde50f83adcf9462097fc6feaad3d5</document_record>
+        <document_table>sys_cs_provider_application</document_table>
+        <hierarchy_order>100</hierarchy_order>
+        <name>live_agent_private_chat</name>
+        <order/>
+        <sys_class_name>sys_cs_custom_adapter_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 18:27:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0dcde50f83adcf9462097fc6feaad3dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>live_agent_private_chat</sys_name>
+        <sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
+        <sys_update_name>sys_cs_custom_adapter_property_0dcde50f83adcf9462097fc6feaad3dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 18:27:49</sys_updated_on>
+        <value>false</value>
+    </sys_cs_custom_adapter_property>
+</record_update>
