@@ -27,7 +27,7 @@
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>false</hidden>
+        <hidden>true</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -61,8 +61,11 @@
         <record/>
         <record_producer_table/>
         <reference>cmn_location</reference>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>name=Germany^ORname=Hungary^EQ</reference_qual>
+        <reference_qual_condition table="cmn_location">name=Germany^ORname=Hungary^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="=" or="false" value="Germany"/>
+            <item endquery="false" field="name" goto="false" newquery="false" operator="=" or="true" value="Hungary"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -82,14 +85,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-24 15:54:43</sys_created_on>
         <sys_id>27dd972f836d07d462097fc6feaad3a8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Location of delivery</sys_name>
         <sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
         <sys_update_name>item_option_new_27dd972f836d07d462097fc6feaad3a8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-25 10:52:12</sys_updated_on>
+        <sys_updated_on>2026-06-25 13:05:03</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

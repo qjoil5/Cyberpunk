@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="Please select the required quantity">657d1beb836d07d462097fc6feaad370</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-25 12:32:36</sys_created_on>
+        <sys_id>e439f3ff8361c7d462097fc6feaad397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>10 KG</sys_name>
+        <sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
+        <sys_update_name>question_choice_e439f3ff8361c7d462097fc6feaad397</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-25 12:32:36</sys_updated_on>
+        <text>10 KG</text>
+        <value>10 KG</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=e439f3ff8361c7d462097fc6feaad397"/>
+</record_update>

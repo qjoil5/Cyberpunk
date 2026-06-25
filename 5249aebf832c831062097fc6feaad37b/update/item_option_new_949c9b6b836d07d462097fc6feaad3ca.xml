@@ -26,7 +26,7 @@
         <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
-        <help_text>javascript: gs.getMessage('Runs');</help_text>
+        <help_text>The ideal coffee depends on your flavor preferences and how you like to drink it, we encourage you to try different flavours!</help_text>
         <hidden>false</hidden>
         <include_none>true</include_none>
         <instructions/>
@@ -82,14 +82,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-24 15:49:40</sys_created_on>
         <sys_id>949c9b6b836d07d462097fc6feaad3ca</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Please select what kind of coffee you would like to order</sys_name>
         <sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
         <sys_update_name>item_option_new_949c9b6b836d07d462097fc6feaad3ca</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-25 11:08:39</sys_updated_on>
+        <sys_updated_on>2026-06-25 11:14:06</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

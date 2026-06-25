@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Copy of Coffee order">47a377338361c7d462097fc6feaad36b</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-25 12:08:19</sys_created_on>
+        <sys_id>97a3bb338361c7d462097fc6feaad3e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Copy of Coffee order</sys_name>
+        <sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_97a3bb338361c7d462097fc6feaad3e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-25 12:08:19</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</application>
+        <file_path/>
+        <instance_id>986debb83b078ad8c55a348aa4e45abe</instance_id>
+        <instance_name>dev275523</instance_name>
+        <name>sc_cat_item_catalog_97a3bb338361c7d462097fc6feaad3e9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of Coffee order">47a377338361c7d462097fc6feaad36b</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-25 12:08:19</sys_created_on><sys_id>97a3bb338361c7d462097fc6feaad3e9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Copy of Coffee order</sys_name><sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package><sys_policy/><sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope><sys_update_name>sc_cat_item_catalog_97a3bb338361c7d462097fc6feaad3e9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-25 12:08:19</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>119988326</payload_hash>
+        <record_name>Service Catalog.Copy of Coffee order</record_name>
+        <reverted_from/>
+        <source>a8429940830d875062097fc6feaad31f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-25 12:08:19</sys_created_on>
+        <sys_id>9ba3bb338361c7d462097fc6feaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19efeae59940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-25 12:08:19</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>5ba3bb338361c7d4da4057f91f970fee</update_guid>
+        <update_guid_history>5ba3bb338361c7d4da4057f91f970fee:119988326</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Copy of Coffee order">eac873ff8361c7d462097fc6feaad349</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-25 12:30:40</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>094bcdda0b2c4bca998a447a69a65e99</sys_id>
+        <sys_metadata>97a3bb338361c7d462097fc6feaad3e9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Copy of Coffee order</sys_name>
+        <sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package>
+        <sys_parent display_value="">47a377338361c7d462097fc6feaad36b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
+        <sys_scope_delete display_value="">1d97e691b68648c0838248808cd271e4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_97a3bb338361c7d462097fc6feaad3e9</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_97a3bb338361c7d462097fc6feaad3e9">9ba3bb338361c7d462097fc6feaad3ef</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-25 12:30:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
