@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Cyberpunk</application>
+        <code/>
+        <commented_message/>
+        <key>Coffeehelp</key>
+        <language>en</language>
+        <message>The ideal coffee depends on your flavor preferences and how you like to drink it, we encourage you to try different flavours!</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-25 10:57:12</sys_created_on>
+        <sys_id>70d263bb83ad87d462097fc6feaad381</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Coffeehelp</sys_name>
+        <sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
+        <sys_update_name>sys_ui_message_70d263bb83ad87d462097fc6feaad381</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-25 11:05:28</sys_updated_on>
+    </sys_ui_message>
+</record_update>
