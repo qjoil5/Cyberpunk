@@ -28,7 +28,7 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c69f09a183b0c31062097fc6feaad32c</sys_id>
-        <sys_mod_count>45</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name>Order device</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cyberpunk" source="x_1794838_cyberp_0">5249aebf832c831062097fc6feaad37b</sys_package>
@@ -44,11 +44,11 @@
         <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
         <sys_update_name>sys_hub_flow_c69f09a183b0c31062097fc6feaad32c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-12 17:12:58</sys_updated_on>
+        <sys_updated_on>2026-06-26 09:27:41</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>08735abd8378471062097fc6feaad3f2</version_record>
+        <version_record>79785cd083f54bd462097fc6feaad358</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=c69f09a183b0c31062097fc6feaad32c"/>
     <sys_variable_value action="delete_multiple" query="document_key=c69f09a183b0c31062097fc6feaad32c"/>
@@ -97,12 +97,12 @@
         <value>app</value>
     </sys_hub_flow_stage>
     <sys_hub_flow_stage action="INSERT_OR_UPDATE">
-        <always_show>true</always_show>
+        <always_show>false</always_show>
         <ancestor_array_position>0</ancestor_array_position>
         <ancestor_component_id/>
         <ancestor_stage_id/>
         <ancestral_if_else_logic/>
-        <component_indexes>4</component_indexes>
+        <component_indexes/>
         <duration>1970-01-01 00:00:00</duration>
         <flow display_value="Order device">c69f09a183b0c31062097fc6feaad32c</flow>
         <label>product dispatched</label>
@@ -112,10 +112,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-11 17:46:55</sys_created_on>
         <sys_id>54a191e583b0c31062097fc6feaad3c4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-11 17:46:55</sys_updated_on>
+        <sys_updated_on>2026-06-26 09:27:30</sys_updated_on>
         <type>standard</type>
         <value>dis</value>
     </sys_hub_flow_stage>
@@ -325,7 +325,7 @@
         <trigger_type>service_catalog</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=c69f09a183b0c31062097fc6feaad32c^sys_idNOT IN2f0111a583b0c31062097fc6feaad32d,3442592983b0c31062097fc6feaad35c,87705d2583b0c31062097fc6feaad351,8bbf85e98370c31062097fc6feaad344,e881dda583b0c31062097fc6feaad3ee"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=c69f09a183b0c31062097fc6feaad32c^sys_idNOT IN2f0111a583b0c31062097fc6feaad32d,3442592983b0c31062097fc6feaad35c,87705d2583b0c31062097fc6feaad351,8bbf85e98370c31062097fc6feaad344"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
         <action_type_parent/>
@@ -359,16 +359,16 @@
         <display_text/>
         <flow display_value="Order device">c69f09a183b0c31062097fc6feaad32c</flow>
         <generation_source/>
-        <order>6</order>
+        <order>5</order>
         <parent_ui_id>615fde25-3a24-44a7-977a-ca597116328f</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-11 17:49:40</sys_created_on>
         <sys_id>3442592983b0c31062097fc6feaad35c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2026-06-03 14:11:15</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-26 09:27:31</sys_updated_on>
         <ui_id>bbb1dd7a-ed20-4a52-afe0-f78dfa0b243c</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1WS2/bOBD+KwbPjiFZjmv7ViQIsEAfi6bIpW6IETmyuaBIlaTSaA3/9x1KlBN0U2y92Eux1Ymcx8d5faQ+HZiSbMOWErP1Ol+KIi+KeZbNV4u8XBZlPpcFYF6yKTNQI1k+gG7R075fkEDigxLIo3rbZlkhD4dFJkBCNr+4rNZwsZBCXEAp4UJAtYR1Vqxhlc3E3lqPvLOt4wnDH4/3Dr8QfkB3PmJytYMrYQlbN2C6fwniefInpC8tmKDCeVApw9GXYHyAkA0Yv5nJ787uHHp/H2wATaf5cBb+4Aa1bU0gcGgaZ6krA8awQ3kP3qudqdEEvnO2bdIRWyaVbzR0W7bZsmtaQxD7yVswsMNovWXT7dDk3kKKuahQXK6KgvzzbDnP1q8qsawQgGak6M1957mSP2h/vJeo1QO6jksIp1bfoovDMLkCys7ueD62hKuA9YwWqiZzyUdvSr1svTJUSf5HS+pKCQjKmrOK2WgEalYsmpLIX0Y8HmnwU93ufs3/r/n/P86/2CstHRq2+fR5yhpwNGw0r2xz+Eb1oy+LhhI1md4o1NK/8NSErol7Sp8aFpAPT88gf5OcPybl5C4prZMxqHzK8DGgkUjRVKA9TlkNhipuXcc2wbUkcAjyvdHdyWKvTCBQFm0fvfqTjs+XWf9F6wopSYGDxWnL00QN4uqaGnhL+CK0LpkSI6i1fiiPxApaHa6eywaD900s9uASoNSjt9Vtbd4NxWEngPEiIklLHZTYxGxj/ENy1e3efv0wBnmjTF+XlKi2AvRpByE4VbYhhnNgqHsi8Jq4pMxunA1yplDq2U7TZlZp+5XOjBybgYhxz6i2MLsh+XUvvgOnYhJvCYacj9NIkytNvHxKhWoY7wk9JpZS4H0V+hL0d1rvLJxqwms66gFT4Mfp+BuTY3b53WHDxdNsPcN8+pV55Pmr9WJVrLjoSnQNz8abOVHw77f/da+ffDjpz2THPwc8suNjPwgvJzAS5FvZm+e+k3eDIhEj+6+IsfqZKJHS+Ok58T0mfP4LDahyANILAAA=</values>
@@ -422,30 +422,6 @@
         <values>H4sIAAAAAAAA/+1YXU/bMBT9K1WeS+c0TZryhqiYmPYhAeMFocixb6gnN+lih62r+t93EztN1kLXjiLBxAvC9/rj3ONzYrs3C0dw59iBQeD5+GeYeMTtuySEIAzZiFAWBoE/8Jyuk9IpYE86m+XZPZVRDlRlKSawUZQZ/JcLNZN0ft1E2ERInkPqHN/cdp0ZzXEWDblzvFhL7QpD0hgkdj2xODoXNY5HAer5rEwonYv0zrY/2mku62CW8xJWv+vATw0pB8STUKmg60xpyqnO8vkqglPzL6lsAhORalPwlP5U4heu5wak7JgAlsgsG6tmZJky4WRMNUUkBdNFviIuEwyUIYdDQgupT9sx0+HLTAssshqiaSzr0Zkspulnw4izmqC1MYVCEDArKy2h2zqSy0n246JGeSbSihSblBmjctWiGqmLC13iWTiFuFpj2UQ2eAYJU1wxmuI+YSQqN0tUqyDoae9OYqOXyOwHolPiLu1RVlbYwx2gvTOMj6vwNc1FWe4nnAYHl8t9TcX3As5LHQX9OBiRkB/xhMRHg9DzjygDcgSB64PPA+a7nrPsOmquTiVVqiEKdyj6XpRlGtosQZHhuBzCcjHTJwjqHiwXy651EXGTPoxGfRK7hHiEhD4joQexNwyGHuXhAyJNBEjeMlGd2DRTK7OfqXZAtWGqMwvrMbjWUlUzqjr9aatqfOezSRzcWiEhr8lbuPhTrPU8jtlf/YaCv1iAbRUbtA6Sb1mRp1scEE2EqpTxqBNaPfZzxA4ga0d8MCjXDbEO/l/84L354f/3wzDcJjVGGknlwFAYLSMsFpeQ3yPvnVNELrO7yO3lgEec0pHQMF0uD3Dj2gFfbYWLGuA6YCt+nrGi2hjB19Q/tpnO+biRP9kufyOSXdTv9d+0/yK1z/xt2kpGjZR4gSRRDYd9Teywfq3tcQGdsQGwCal+P7AJ8EKacKTFxkf+0naoZnp3Jdofe/9gH/vBa/rUP/VZ8XyvhWh1n0Y1oymf4Tkw2Ko/aIltdaNhWcpFWYFqWcHcykGdpPP3N4uF0lQL1nP7hHnA/NDDqT2XBH0yGiYsSIBS7tF4ubzd9NBTptrPfDsUvzpY0DPqb2RYEzavezuobcDmNwGbtOYbHOqoeWUXrZfpvsMbLWZbLzGs0ZZhs7GWYhFeqarr1KZZLsxlC3jn3OT3c8AOqGoHXFlYayit5qvmQ6+Katjaq8Ld86Ax4n9Q629KfzFKv/0NyB4386kVAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=8bbf85e98370c31062097fc6feaad344"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent/>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Order device">c69f09a183b0c31062097fc6feaad32c</flow>
-        <generation_source/>
-        <order>5</order>
-        <parent_ui_id>615fde25-3a24-44a7-977a-ca597116328f</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-05-11 17:46:23</sys_created_on>
-        <sys_id>e881dda583b0c31062097fc6feaad3ee</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2026-06-03 14:11:15</sys_updated_on>
-        <ui_id>08d62010-223d-4c25-9e22-d4c026c34888</ui_id>
-        <updation_source/>
-        <values>H4sIAAAAAAAA/+1VTU/jMBD9K1HObZU0paK9rajQIrEgAWIPLBtN7ElryfnAdgrZqP99x05SqsKiInFYtNtDVI9nJu+N34vvGl9wf+4HYx6Es3DKojCKxkEwPp6EyTRKwjGPABH9gZ9DhpS5BlmhprX7QwFtwOCPKggiHv1kRZZhbnS7/oq11zSTgAGHYDw8SmcwnHDGhpBwGDJIpzALohkcByOFD9TWFCq27xnZx2bj1UWlvAWuBcNDG7FVUWiMbWXMXWWs+3Yr0F6CmHu6Ygy1Tispa48LXYJhK+Qe5NwTxvsupPQUAltZBN4aVe3posiJtU2WUN/+k+TZSkiuMPfnd/cDvwRFnQ0qf97sbR2qKQkJSko9FSi5fkVkpi7t2mBGUzcYt6Jr4+dd8U236d12m4XiFlQYBAMfnwzmHAlPClLjwM+IJtCoa39uVEUBosovc1lvM1YiN9TWt7lPWvwiAOE0cD+bnSLRZNhmbJdxJ4w2nC7AwDX1Z6ZSXSqdDZ2HbgfEMYVKmpPdWJtwWRpBw3YlBhLZVxeyyvKLdjz+tkGvQ4pUdPAcS8vW4m/Jpder4vGqB3kqcjeZjqgsGMjtCoxRIqmMhdP4KNFqOc6gLEW+jEtVrIUrJijZaClpMUpl8Ujv1GKZj4BZ3COaLYxOKb5w4VtQwpL4Rm2oeDPwda1PJGj9TIVmGD9UFklLrKMQuym4EThbuGKmRGm+0KvW2AHfDLpP2ATflFv4rC6FjCSy8wlrmmtUzmcnBF8WyzjsPRkL0t5m89L577bDAfh6O1z1APcBd3bgBavc6Qi+54VFt+OdLXaN8FE+mPx3wF/sgOToLYWx2bOgdnruXOQsJtE7wb+U+1VrB7omztr994n/AGi9+G/ckb8Otb8O9mPnu7XeRbvRqf/ow9R//JnU39H49PL/k+jvfwMeKhpEuwoAAA==</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e881dda583b0c31062097fc6feaad3ee"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=c69f09a183b0c31062097fc6feaad32c"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=c69f09a183b0c31062097fc6feaad32c^sys_idNOT IN5120512583b0c31062097fc6feaad3f8"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -466,13 +442,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-11 17:40:26</sys_created_on>
         <sys_id>5120512583b0c31062097fc6feaad3f8</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Cyberpunk">5249aebf832c831062097fc6feaad37b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-12 17:12:50</sys_updated_on>
+        <sys_updated_on>2026-06-26 09:27:31</sys_updated_on>
         <ui_id>615fde25-3a24-44a7-977a-ca597116328f</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1VTWvbQBD9K2XPtll9ubZvoSUQSBtoQi5tEKPdkb10vatqV0lc4//eGUlOQprQUnLswWC9nY83b95Ke+G72HQxXPmTEMzaidXXm4kwjjH6vxe19Xfnfm3UmQsRnMLLXTjTYiWKJJX0KxZZJVWWyHkql+9rNa8RQGf1QkyEgy1SpPJOm2i8I+gWbMfYfl8ki1QudDbVRVpP81wXU8i1muZFrpcqk1gssxk0Tespp6TeEQ+Hb52UmR5Q1FRPm9BY2F2/cVm1MVa3OMrRQEuTRGzFav/sKO4aLC1UaKn7ZWyNW1O6YYGWUNRFIguVpfMslTJd5Ek1z6ok1RlgPqe4Y+KHJwq9IBo3ISgcy/tWM5dUTgTeR3SaOK9qsAEnYgtOQ/TtTqxi2xHQIugLZ3cPERvjIlUTHHsfzE/kSlJyZI00mMLh9OGxHEUeYLXxRuFF03PrkQiVHXOUt93WfR5G4PVgDZ2Nx/UQ0gWqhw2TZhojp/py4+++HBueGtcPOB5ar8A+PEEkGaouYuBtoMUtFSq3tDwSp+QNmj6ZuGxna0sPM/YwNWV/z0Ax8RlpBLNTwj/28DW0hqf4RGUomTYYyqBa0xxn65uLQ69K+aNjPsN84yTlIAYFDGkn1OYWR9KHydveo7IHHi/T7/fgjSxcS6iTpUpetjBkL1n43XmPvM76FTcnf3DziPyVnYviv5ufuplpVhCMKvs3O5Xjd8M/2/mGrTe0CIOHNCoTiMkVY2fHrwcf7GjrbPpH6M6333mGR+zwC0KoQdSHBgAA</values>
+        <values>H4sIAAAAAAAA/+1VXW/aMBT9K5OfATlfDHirWlVC6lZpVH3ZqujGH2DN2JnttM0Q/33XSYBqY9qq9XEPSPj43utzTnySHbFNqJvg7+yF92ptyOLzw4goEzH8vyNS26cbu1ZsaXwAw8Sq9UtOFqRIUoq/YpZVlGUJnaZ0/l6yqRQAPJMzMiIGtgIrmTVcBWUNQo+gm4jtdkUyS+mMZ2NepHKc57wYQ87ZOC9yPmcZFcU8m0BdO4s9JZ4dxH7/paE04z0qOM7jytca2vs3Hss2SnMnBjtqcKgkCEcWu5+2VLRiDoUsElqwLJ1mKaXpLE+qaVYlKc9A5FMcqKESGksvX3hxxp7Q1hHywSmzHtY3Q+vqAFrHI5WUjoh4DsJwpLyQoL0YkS0YDsG6liyCaxBwAvit0e2xYqNMwGkk1j579V3ESZTGSilQFxP97nFZDh73sLyCAEilYaFxQynbWMWE7x3hQkKjw+VLrC+4rTuVXUuASh+6rW625mNvBjkOODxSRBqPJEQdlUbugxC52tinTweW18p0rgyb2jLQxxUE9K5qQuSzI0KLLQ4qt/jA0dEyPnXVNSOX7WStcTGJ9x4PjZmYAIvEJ2gsTK4Rv+rge3AqqviAY7AZ74IvPXOqPmjrDif7EfGtv9Tg/Ukjmlt+ayLDXvGgreztiS3doAs8+FEMMvajt01j2QGnSP6aplcHQVKQyZwl54MA2bkgvOvv9+/5vSYTyR8yMSB/FYqi+J+Jf85EpFmBV6zsvik4Lr6W3jAUD/EC94cezWbKI7e7iC0PX7K40eKNitE5QU/WfY2qTtj+Bx5LM8oTBwAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=c69f09a183b0c31062097fc6feaad32c"/>
